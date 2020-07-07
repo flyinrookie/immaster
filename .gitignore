@@ -2,5 +2,7 @@
 
 data/
 engine/driver
-# engine/config.ini
+engine/config.ini
 log/
+config.ini
+driver
