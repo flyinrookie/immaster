@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+.twocolumns {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#terminal {
+    flex: 1;
+}
+#command {
+    height: 20px;
+    width: 50vw;
+}
+#rightpanel {
+    height: 100vh;
+    /* background-color: black;
+     color: white;*/
+}
+h2 {
+    text-align: center;
+}
