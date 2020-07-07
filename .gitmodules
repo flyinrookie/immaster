@@ -1,0 +1,6 @@
+[submodule "engine/mudcore"]
+	path = engine/mudcore
+	url = https://github.com/oiuv/mudcore.git
+[submodule "engine/www"]
+	path = engine/www
+	url = https://github.com/MudRen/www.git
