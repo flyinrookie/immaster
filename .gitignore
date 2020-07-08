@@ -4,5 +4,6 @@ data/
 engine/driver
 engine/config.ini
 log/
+web/
 config.ini
 driver
