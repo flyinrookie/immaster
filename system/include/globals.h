@@ -37,8 +37,8 @@
 #define PRELOAD   SYSTEM_DIR "etc/preload"
 
 // 指令路径
-#define CMD_PATH_WIZ ({"system/cmds/wizard/", "mudcore/cmds/wizard/"})
-#define CMD_PATH_STD ({"system/cmds/player/", "mudcore/cmds/player/"})
+#define CMD_PATH_WIZ ({"system/cmds/wizard/", "engine/mudcore/cmds/wizard/"})
+#define CMD_PATH_STD ({"system/cmds/player/", "engine/mudcore/cmds/player/"})
 
 // 核心框架头文件
 #include <mudcore.h>
