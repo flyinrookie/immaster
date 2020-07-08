@@ -42,7 +42,9 @@
 #define CMD_PATH_WIZ ({"system/cmds/wizard/", "engine/mudcore/cmds/wizard/"})
 #define CMD_PATH_STD ({"system/cmds/player/", "engine/mudcore/cmds/player/"})
 
-//其他
+//游戏世界
+#define WORLD_DIR  "game/world/"
+#define START_ROOM  WORLD_DIR "start_room"
 
 
 // 核心框架头文件
