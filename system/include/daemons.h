@@ -3,6 +3,6 @@
 #ifndef DAEMONS_H
 #define DAEMONS_H
 
-#define LOGIN_D "system/daemons/login_d"
+#define LOGIN_D SYSTEM_DIR "daemons/login_d"
 
 #endif

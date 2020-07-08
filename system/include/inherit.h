@@ -3,13 +3,13 @@
 #ifndef INHERIT_H
 #define INHERIT_H
 
-#define CLEAN_UP "/inherit/clean_up"
-#define COMMAND "/inherit/command"
-#define DBASE "/inherit/dbase"
-#define MESSAGE "/inherit/message"
-#define MOVE "/inherit/move"
-#define NAME "/inherit/name"
-#define ROOM "/inherit/room"
-#define SAVE "/inherit/save"
+#define CLEAN_UP     INHERIT_DIR "clean_up"
+#define COMMAND      INHERIT_DIR "command"
+#define DBASE        INHERIT_DIR "dbase"
+#define MESSAGE      INHERIT_DIR "message"
+#define MOVE         INHERIT_DIR "move"
+#define NAME         INHERIT_DIR "name"
+#define ROOM         INHERIT_DIR "room"
+#define SAVE         INHERIT_DIR "save"
 
 #endif

@@ -6,8 +6,14 @@
 //管理员账号
 #define WIZARD "teamug"
 
-// 底层核心
-#define CORE_DIR "mudcore/"
+// 外部底层核心
+#define CORE_DIR "engine/mudcore/"
+
+//系统底层
+#define SYSTEM_DIR "system/core/"
+#define SYSTEM_STD "system/std/"
+#define SYSTEM_OBJ "system/obj/"
+#define INHERIT_DIR "system/inherit/"
 
 //功能模块
 #include "inherit.h"
@@ -17,9 +23,9 @@
 #include "stdob.h"
 
 // 系统
-#define LOGIN_OB "system/object/login"
-#define USER_OB "system/object/user"
-#define VOID_OB "system/object/void"
+#define LOGIN_OB     SYSTEM_DIR "object/login"
+#define USER_OB      SYSTEM_DIR "object/user"
+#define VOID_OB      SYSTEM_DIR "object/void"
 
 //数据存储
 #define LOG_DIR "log/"
@@ -27,12 +33,12 @@
 
 // 其他
 #define HTTP_PORT 8888
-#define MOTD "system/etc/motd"
-#define PRELOAD "system/etc/preload"
+#define MOTD      SYSTEM_DIR "etc/motd"
+#define PRELOAD   SYSTEM_DIR "etc/preload"
 
 // 指令路径
-#define CMD_PATH_WIZ ({"cmds/wizard/", "mudcore/cmds/wizard/"})
-#define CMD_PATH_STD ({"cmds/player/", "mudcore/cmds/player/"})
+#define CMD_PATH_WIZ ({"system/cmds/wizard/", "mudcore/cmds/wizard/"})
+#define CMD_PATH_STD ({"system/cmds/player/", "mudcore/cmds/player/"})
 
 // 核心框架头文件
 #include <mudcore.h>
