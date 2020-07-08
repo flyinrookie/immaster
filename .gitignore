@@ -1,7 +1,6 @@
 # exclude the following file/dir
-
+web/
 data/
 log/
-web/
 config.ini
 driver
