@@ -4,7 +4,7 @@ Ongoing building of the mudlib, as a learning project. The master branch is kept
 
 This mudlib contains the following parts:
 
-1. engine: external modules, including mudcore and www
+1. ext: external modules, including mudcore and www
 2. system: the framework the game runs on
 3. game: build the world
 
@@ -14,5 +14,6 @@ This depository does not contain driver and configure file/folders, to run the m
 2. config: see mudcore/ for config example
 3. data/
 4. log/
+   \*using the web client included in ext/ can access the game from browser
 
-This mudlib is also based on the mudcore from: https://github.com/oiuv/mudcore
+This mudlib is based on "MudCore" from: https://github.com/oiuv/mudcore

@@ -4,3 +4,9 @@
 [submodule "engine/www"]
 	path = engine/www
 	url = https://github.com/MudRen/www.git
+[submodule "ext/mudcore"]
+	path = ext/mudcore
+	url = https://github.com/oiuv/mudcore.git
+[submodule "ext/www"]
+	path = ext/www
+	url = https://github.com/MudRen/www.git

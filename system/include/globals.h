@@ -7,7 +7,7 @@
 #define WIZARD "teamug"
 
 // 外部底层核心
-#define CORE_DIR "engine/mudcore/"
+#define CORE_DIR "ext/mudcore/"
 
 //系统底层
 #define SYSTEM_DIR "system/core/"
@@ -39,8 +39,8 @@
 #define PRELOAD   SYSTEM_DIR "etc/preload"
 
 // 指令路径
-#define CMD_PATH_WIZ ({"system/cmds/wizard/", "engine/mudcore/cmds/wizard/"})
-#define CMD_PATH_STD ({"system/cmds/player/", "engine/mudcore/cmds/player/"})
+#define CMD_PATH_WIZ ({"system/cmds/wizard/", "ext/mudcore/cmds/wizard/"})
+#define CMD_PATH_STD ({"system/cmds/player/", "ext/mudcore/cmds/player/"})
 
 //游戏世界
 #define WORLD_DIR  "game/world/"
