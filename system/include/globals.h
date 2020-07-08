@@ -23,9 +23,11 @@
 #include "stdob.h"
 
 // 系统
-#define LOGIN_OB     SYSTEM_DIR "object/login"
-#define USER_OB      SYSTEM_DIR "object/user"
-#define VOID_OB      SYSTEM_DIR "object/void"
+#define MASTER_OB       SYSTEM_DIR "kernel/master"
+#define SIMUL_EFUN_OB   SYSTEM_DIR "kernel/simul_efun"
+#define LOGIN_OB        SYSTEM_DIR "object/login"
+#define USER_OB         SYSTEM_DIR "object/user"
+#define VOID_OB         SYSTEM_DIR "object/void"
 
 //数据存储
 #define LOG_DIR "log/"
@@ -39,6 +41,9 @@
 // 指令路径
 #define CMD_PATH_WIZ ({"system/cmds/wizard/", "engine/mudcore/cmds/wizard/"})
 #define CMD_PATH_STD ({"system/cmds/player/", "engine/mudcore/cmds/player/"})
+
+//其他
+
 
 // 核心框架头文件
 #include <mudcore.h>
