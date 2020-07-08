@@ -14,6 +14,7 @@ This depository does not contain driver and configure file/folders, to run the m
 2. config: see mudcore/ for config example
 3. data/
 4. log/
-   \*using the web client included in ext/ can access the game from browser
+
+   using the web client included in ext/ can access the game from browser
 
 This mudlib is based on "MudCore" from: https://github.com/oiuv/mudcore
