@@ -1,6 +1,6 @@
 #include <ansi.h>
 
-#define HELP_DIR "help/"
+#define HELP_DIR "game/help/"
 
 int help(object me);
 
