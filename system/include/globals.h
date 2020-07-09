@@ -44,7 +44,7 @@
 
 //游戏世界
 #define WORLD_DIR  "game/world/"
-#define START_ROOM  WORLD_DIR "start_room"
+#define START_ROOM  WORLD_DIR "tutorial/start_room"
 
 
 // 核心框架头文件
