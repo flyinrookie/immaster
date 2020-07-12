@@ -8,7 +8,7 @@ This mudlib contains the following parts:
 2. system: the framework the game runs on
 3. game: build the world
 
-This depository does not contain driver and configure file/folders, to run the mudlib, the following file/folders need to be added to root:
+This repository does not contain driver and configuration file/folders, to run the mudlib, the following file/folders need to be added to root:
 
 1. driver: https://www.fluffos.info
 2. config: see mudcore/ for config example
