@@ -15,6 +15,6 @@ This repository does not contain driver and configuration file/folders, to run t
 3. data/
 4. log/
 
-using the web client included in ext/ can access the game from browser
+using the web client included in ext/www can access the game from browser
 
 This mudlib is based on "MudCore" from: https://github.com/oiuv/mudcore
