@@ -31,13 +31,13 @@ void create()
 {
     day_phase = read_table(NATURE_DIR "day_phase");
     // 仅继承对象呼叫，避免重复
-    /**
+    
     if (inherits(CORE_NATURE_D, this_object()))
     {
         select_day_phase();
     }
-    **/
-    select_day_phase();
+    
+    // select_day_phase();
 }
 
 void update_day_phase()
