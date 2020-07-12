@@ -1,4 +1,4 @@
-# A mud game based on LPC/Fluffos/MudCore
+# A MUD Game Based On LPC/Fluffos/MudCore
 
 Ongoing building of the mudlib, as a learning project. The master branch is kept in working condition.
 
