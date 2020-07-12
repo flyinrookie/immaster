@@ -36,7 +36,7 @@
 // 其他
 #define HTTP_PORT 8888
 #define MOTD      SYSTEM_DIR "etc/motd"
-#define PRELOAD   SYSTEM_DIR "etc/preload"
+#define PRELOAD   SYSTEM_DIR "kernel/master/preload"
 
 // 指令路径
 #define CMD_PATH_WIZ ({"system/cmds/wizard/", "ext/mudcore/cmds/wizard/"})
