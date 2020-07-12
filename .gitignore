@@ -4,3 +4,4 @@ data/
 log/
 config.ini
 driver
+doc/design/
