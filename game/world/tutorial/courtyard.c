@@ -4,7 +4,7 @@ protected void create()
 {
     ::create();
     setArea(0,0,1,0);
-    set("short", "院子");
+    set("short", "前院");
     set("long", @LONG
 一个小小的院子，随意地扔着几件工具。
 LONG);
