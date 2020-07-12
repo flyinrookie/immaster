@@ -14,5 +14,6 @@ LONG);
     set("no_fight", 1); //是否禁止战斗
     set("exits", ([
         "south" : WORLD_DIR"tutorial/courtyard",
+        "north" : WORLD_DIR"tutorial/backyard",
     ])); //设置出口
 }
