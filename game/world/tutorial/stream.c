@@ -10,7 +10,7 @@ protected void create()
 LONG);
 
     set("exits", ([
-        "up": WORLD_DIR"/tutorial/forest",
+        "southup": WORLD_DIR"/tutorial/forest",
         "east": WORLD_DIR"/tutorial/cliff",
         "west": WORLD_DIR"/tutorial/cave_entrance",
     ]));

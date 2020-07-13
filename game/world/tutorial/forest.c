@@ -10,7 +10,7 @@ protected void create()
 LONG);
     
     set("exits", ([
-        "up": WORLD_DIR"/tutorial/backyard",
-        "down": WORLD_DIR"/tutorial/stream",
+        "southup": WORLD_DIR"/tutorial/backyard",
+        "northdown": WORLD_DIR"/tutorial/stream",
     ]));
 }

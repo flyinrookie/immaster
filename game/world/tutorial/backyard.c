@@ -11,6 +11,6 @@ LONG);
  
     set("exits", ([
         "south": START_ROOM,
-        "down": WORLD_DIR"/tutorial/forest",
+        "northdown": WORLD_DIR"/tutorial/forest",
     ]));
 }

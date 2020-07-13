@@ -11,6 +11,6 @@ LONG);
 
     set("exits", ([
     "northest": WORLD_DIR"/tutorial/trail1",
-    "south": WORLD_DIR"",
+    "south": START_ROOM,
 ]));
 }
