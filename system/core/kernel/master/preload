@@ -5,6 +5,6 @@
 /system/core/daemons/combat_d
 /system/core/daemons/dbase_d
 /system/core/daemons/emote_d
-/system/core/daemons/nature_d
 /system/core/daemons/time_d
+/system/core/daemons/nature_d
 /system/core/daemons/virtual_d
