@@ -3,6 +3,7 @@ inherit STD_ROOM;
 
 protected void create()
 {
+    setArea(0,0,0,0);
     ::create();
     set("short", "茅草屋");
     set("long", @LONG
