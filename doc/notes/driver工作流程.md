@@ -4,3 +4,13 @@
 - 进入游戏世界之后，driver 通过玩家的行为（指令）及其触发的 apply，以及 heart_beat()、call_out()等对游戏世界进行管理，从游戏世界的角度来看，没有通常意义上程序的起点和终点，而是事件驱动模式。
 - driver 的工作模式为一轮一轮的循环，直到 shutdown()或者发生错误崩溃。
 - driver 首先将上一个循环内用户输入的指令建立一个列表，然后将上一个循环内计划发送给玩家的消息全部发送出去，这时 driver 依照指令列表一一执行指令，再逐一执行每一个 heart_beat()，最后执行所有等待的 call_out()，至此一个循环结束。
+
+* 总结：一个游戏启动、玩家登录并进入游戏世界所需最基本的文件（除 driver 外）：
+  - config
+  - globals.h
+  - simul_efun.c
+  - master.c
+  - login.c
+  - login_d.c
+  - user.c
+  - void.c
